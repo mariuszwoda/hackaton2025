@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.where2play</groupId>
-    <artifactId>demo-spring</artifactId>
+    <artifactId>demo-spring-copilot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-spring</name>
-    <description>demo-spring</description>
+    <name>demo-spring-copilot</name>
+    <description>demo-spring-copilot</description>
     <url/>
     <licenses>
         <license/>

@@ -1,4 +1,4 @@
-package pl.where2play.demospring;
+package pl.where2play.demospringcopilot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
