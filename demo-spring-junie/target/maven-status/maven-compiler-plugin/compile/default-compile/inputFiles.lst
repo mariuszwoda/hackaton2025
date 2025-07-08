@@ -1,0 +1,11 @@
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/dto/ProductRequest.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/repository/ProductRepository.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/exception/ErrorResponse.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/dto/ProductResponse.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/DemoSpringJunieApplication.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/config/AppConfig.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/domain/Product.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/service/ProductService.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/config/AppProperties.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/exception/GlobalExceptionHandler.java
+/Users/mario/Documents/development/workspace/hackaton2025/demo-spring-junie/src/main/java/com/example/demospringjunie/controller/ProductController.java

@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "name": "gitlab.api",
+      "type": "com.example.demogitlabrest.config.GitLabProperties",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance-properties",
+      "type": "com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties",
+      "sourceMethod": "getDefaultInstanceProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gitlab.api.base-url",
+      "type": "java.lang.String",
+      "description": "Base URL for the GitLab API (legacy support)",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance",
+      "type": "java.lang.String",
+      "description": "Default GitLab instance to use",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance-properties.base-url",
+      "type": "java.lang.String",
+      "description": "Base URL for the GitLab API",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance-properties.timeout",
+      "type": "java.lang.Integer",
+      "description": "Timeout in milliseconds for API requests",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance-properties.token",
+      "type": "java.lang.String",
+      "description": "Authentication token for the GitLab API",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties"
+    },
+    {
+      "name": "gitlab.api.default-instance-properties.use-token-auth",
+      "type": "java.lang.Boolean",
+      "description": "Whether to use token authentication",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties"
+    },
+    {
+      "name": "gitlab.api.instances",
+      "type": "java.util.Map<java.lang.String,com.example.demogitlabrest.config.GitLabProperties$GitLabInstanceProperties>",
+      "description": "Map of GitLab instances",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties"
+    },
+    {
+      "name": "gitlab.api.timeout",
+      "type": "java.lang.Integer",
+      "description": "Timeout in milliseconds for API requests (legacy support)",
+      "sourceType": "com.example.demogitlabrest.config.GitLabProperties"
+    }
+  ],
+  "hints": []
+}

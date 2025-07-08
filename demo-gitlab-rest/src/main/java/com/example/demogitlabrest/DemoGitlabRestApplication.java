@@ -1,13 +1,12 @@
-package pl.where2play.demospringcopilot;
+package com.example.demogitlabrest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoSpringApplication {
+public class DemoGitlabRestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoSpringApplication.class, args);
+        SpringApplication.run(DemoGitlabRestApplication.class, args);
     }
-
 }

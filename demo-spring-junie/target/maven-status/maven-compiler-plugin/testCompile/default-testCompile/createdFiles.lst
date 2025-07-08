@@ -1,0 +1,6 @@
+com/example/demospringjunie/controller/ProductControllerTest.class
+com/example/demospringjunie/service/ProductServiceTest.class
+com/example/demospringjunie/repository/ProductRepositoryTest.class
+com/example/demospringjunie/integration/ProductApiIntegrationTest.class
+com/example/demospringjunie/DemoSpringJunieApplicationTests.class
+com/example/demospringjunie/integration/ProductApiIntegrationTest$1.class

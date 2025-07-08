@@ -3,7 +3,15 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for demo-spring" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-spring-junie" />
+        <module name="demo-gitlab" />
+        <module name="demo-gitlab-rest" />
+      </profile>
+      <profile name="Annotation profile for demo-spring-copilot" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -16,7 +24,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-gitlab" options="-parameters" />
+      <module name="demo-gitlab-rest" options="-parameters" />
       <module name="demo-spring-copilot" options="-parameters" />
+      <module name="demo-spring-junie" options="-parameters" />
     </option>
   </component>
 </project>

@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/demo-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-junie/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-copilot/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-gitlab/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-gitlab-rest/pom.xml" />
       </list>
     </option>
   </component>
